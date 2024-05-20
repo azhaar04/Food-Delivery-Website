@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&family=Inter:wght@500;600&display=swap");
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1178px; /* Hug width */
+    height: 56px; /* Hug height */
+    margin-top: 62px;
+    margin-left: 211px;
+    gap: 226px; /* Gap */
+    /* background-color: rgb(201, 205, 205); */
+}
+
+.header-left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 226px;
+}
+
+.pizza {
+    font-family: "Playfair Display", serif;
+    font-weight: 900;
+    font-size: 42px;
+    line-height: 55.99px;
+    text-align: center;
+    color: #302f3c;
+}
+
+.header-menu {
+    width: 358px;
+    height: 28px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 7px;
+    margin-left: 406px;
+    gap: 45px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.header-menu-item {
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 28px;
+    color: #191720;
+}
+
+.header-right {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 188px;
+    height: 56px;
+    gap: 30px;
+}
+
+.header-login {
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: right;
+    color: #191720;
+}
+
+.header-button {
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    color: #ffffff;
+    width: 115px;
+    height: 56px;
+    background-color: #e94339;
+    border: none;
+    border-radius: 36px;
+}

@@ -1,0 +1,219 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&family=Inter:wght@500;600&display=swap");
+
+.hero-section-containter {
+    width: 1264px;
+    height: 478px;
+    margin-top: 103px;
+    margin-left: 168px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-left {
+    width: 585px;
+    height: 405px;
+    position: relative;
+}
+
+.text-container {
+    position: absolute;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-header-text {
+    width: 585px;
+    height: 130px;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 61px;
+    line-height: 65px;
+    color: #191720;
+    margin: 0;
+    position: absolute;
+}
+
+.hero-paragraph-text {
+    width: 528px;
+    height: 60px;
+    position: absolute;
+    top: 146px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: -1%;
+    color: #191720;
+    margin: 0;
+}
+
+.hero-right {
+    width: 570px;
+    height: 478px;
+    border-radius: 36px;
+    background-color: #f2ebda;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.hero-img {
+    width: 500px;
+    height: 452px;
+    position: absolute;
+    top: 37px;
+    transform: rotate(-360deg) scaleX(-1);
+}
+
+/*------------------------------------*/
+.input-container {
+    position: absolute;
+    top: 238px;
+}
+.a {
+    display: flex;
+    flex-direction: column;
+    gap: 33px;
+    position: relative;
+}
+.hero-input-button {
+    width: 464px;
+    height: 64px;
+}
+
+.hero-input {
+    width: 464px;
+    height: 64px;
+    border-radius: 56px;
+    background-color: #f6f6f6;
+    position: relative;
+    border: none;
+    /* padding-left: 24px; To align text within the input */
+}
+.hero-input::placeholder {
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16.94px;
+    letter-spacing: 0.5%;
+    color: #afafaf; /* Placeholder text color */
+    position: absolute;
+    top: 23px;
+    left: 24px;
+}
+
+.hero-button {
+    width: 134px;
+    height: 52px;
+    position: absolute;
+    top: 6px;
+    left: 324px;
+    border-radius: 56px;
+    background-color: #ff5331;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-button span {
+    width: 94px;
+    height: 22px;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21.78px;
+    color: #ffffff;
+}
+
+.download {
+    display: flex;
+    flex-direction: row;
+    gap: 33px; /* Space between the apple and play-store elements */
+}
+
+.apple,
+.play-store {
+    width: 186.85px;
+    height: 68px;
+    border-radius: 10.26px;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* position: relative; */
+}
+
+.apple-logo {
+    width: 30.16px;
+    height: 37.22px;
+    position: absolute;
+    top: 114.24px;
+    left: 17.64px;
+    color: #090909;
+}
+.download-text {
+    width: 113.72px;
+    height: 37.11px;
+
+    color: #090909;
+}
+
+.download-apple {
+    width: 85.77px;
+    height: 7.93px;
+    position: absolute;
+    top: 115.68px;
+    left: 55.72px;
+    color: #090909;
+    font-family: "Inter", sans-serif;
+    font-size: 10px;
+    line-height: 12px;
+    margin: 0;
+}
+
+.bold-app-store {
+    width: 113.64px;
+    height: 23.89px;
+    position: absolute;
+    top: 128.9px;
+    left: 55.8px;
+    color: #090909;
+    font-weight: bold;
+    margin: 0;
+}
+
+.download-play-store {
+    width: 85.77px;
+    height: 7.93px;
+    position: absolute;
+    top: 115.68px;
+    left: 277.13px;
+    color: #090909;
+    font-family: "Inter", sans-serif;
+    font-size: 10px;
+    line-height: 12px;
+    margin: 0;
+}
+.bold-play-store {
+    width: 113.64px;
+    height: 23.89px;
+    position: absolute;
+    top: 128.9px;
+    left: 276.61px;
+    color: #090909;
+    font-weight: bold;
+    margin: 0;
+}
+.play-store-logo {
+    width: 30.16px;
+    height: 37.22px;
+    position: absolute;
+    top: 115.68px;
+    left: 237.43px;
+    color: #090909;
+}

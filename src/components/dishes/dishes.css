@@ -1,0 +1,45 @@
+.dishes-container {
+    width: 622px; /* Hug width */
+    height: 163px; /* Hug height */
+    margin-top: 128px;
+    left: 489px;
+    gap: 17px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+
+.dishes-bold-text {
+    width: 622px;
+    height: 116px;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 46px;
+    line-height: 58px;
+    letter-spacing: -1%;
+    text-align: center;
+    margin: 0; /* Remove default margin */
+    /* position: absolute; */
+}
+
+.dishes-bold-text .number {
+    font-weight: 600; /* Ensure the number inside is bold */
+}
+.dishes-normal-text {
+    width: 514px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: -1%;
+    color: #191720;
+    margin: 0; /* Remove default margin */
+    white-space: nowrap; /* Ensure text remains on one line */
+}
+
+.dishes-bold-text .number {
+    color: #ff5331; /* Set the color for the number */
+    font-weight: bold; /* Ensure the number inside is bold */
+}

@@ -1,0 +1,9 @@
+.subscribe-container {
+    width: 1430px;
+
+    padding: 103px 91px;
+    gap: 248px;
+    background-color: #ffefec;
+    margin: 0;
+    display: flex;
+}
