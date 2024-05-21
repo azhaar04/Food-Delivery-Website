@@ -1,0 +1,299 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"); /* Ensure the font is imported */
+.footer-container {
+    width: 1611px;
+    height: 728px;
+    position: relative;
+    /* top: 3410px;
+    left: -11px; */
+    gap: 0;
+    border: 0.05px solid #ffffff;
+    background: #000000;
+}
+
+.footer-initial {
+    position: absolute;
+    width: 230px;
+    height: 505.48px;
+    /* top: 3521px;
+    left: 149.81px; */
+    top: 100px;
+    left: 149.81px;
+    gap: 0;
+    /* opacity: 0; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.footer-pizza {
+    position: absolute;
+    width: 42px;
+    height: 42px;
+    font-family: "Playfair Display", serif;
+    font-size: 42px;
+    font-weight: 900;
+    line-height: 55.99px;
+    text-align: center;
+    color: #302f3c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* opacity: 0; If you want it initially hidden */
+}
+
+.footer-copyright {
+    position: absolute;
+    width: 230px;
+    height: 25px;
+    font-family: "Inter", sans-serif;
+    font-size: 15.54px;
+    font-weight: 400;
+    line-height: 24.41px;
+    text-align: left;
+    color: #b5b2b2;
+    top: 400px;
+    /* Adjusting placement inside the flex container */
+    /* opacity: 0; If you want it initially hidden */
+}
+
+.footer-download {
+    position: absolute;
+    display: flex;
+    gap: 33px;
+    left: 150px;
+    top: 218px;
+}
+.footer-apple,
+.footer-play-store {
+    width: 182.44px;
+    height: 68px;
+
+    border-radius: 10.26px;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin: 0;
+}
+
+.footer-logo {
+    width: 36px;
+    height: 36px;
+}
+.footer-download-text {
+    width: 113.72px;
+    height: 37.11px;
+    display: flex;
+    flex-direction: column;
+    color: #090909;
+}
+
+.footer-download-text-normal {
+    width: 85.77px;
+    height: 7.93px;
+    color: #090909;
+    font-family: "Inter", sans-serif;
+    font-size: 10px;
+    line-height: 17px;
+    margin: 0;
+    display: inline-block;
+}
+.footer-download-text-bold {
+    width: 113.64px;
+    height: 23.89px;
+
+    color: #090909;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 28px;
+    margin: 0;
+    display: inline-block;
+}
+
+.footer-list {
+    position: absolute;
+    width: 824px;
+    height: 294.5px;
+    top: 100px;
+    left: 683px;
+
+    /* background-color: #232323; */
+}
+.footer-list-header {
+    display: flex;
+    /* flex-direction: row; */
+    gap: 144px;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.quick-links {
+    width: 94px;
+    height: 294.5px;
+}
+.quick-links-header {
+    font-family: Inter;
+    font-size: 16.76px;
+    font-weight: 600;
+    line-height: 26.63px;
+    text-align: left;
+    color: #ffffff;
+    width: 94px;
+    height: 27px;
+    display: inline-block;
+}
+
+.quick-links-list-item {
+    position: absolute;
+    width: 94px;
+    height: 249px;
+    top: 45.5px;
+    opacity: 75%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.quick-links-list-item li {
+    text-align: left;
+    font-family: "Inter", sans-serif;
+    font-size: 16.76px;
+    font-weight: 400;
+    line-height: 32.18px;
+    color: #b5b2b2;
+}
+
+.get-to-know {
+    width: 133px;
+    height: 218px;
+}
+.get-to-know-header {
+    font-family: Inter;
+    font-size: 16.76px;
+    font-weight: 600;
+    line-height: 26.63px;
+    text-align: left;
+    color: #ffffff;
+    width: 133px;
+    height: 27px;
+    display: inline-block;
+}
+
+.get-to-know-list-item {
+    position: absolute;
+    width: 124px;
+    height: 170px;
+    top: 45.5px;
+    opacity: 75%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.get-to-know-list-item li {
+    text-align: left;
+    font-family: "Poppins", sans-serif; /* Ensure the correct font is used */
+    font-size: 14px;
+    font-weight: 400; /* Set the font weight */
+    line-height: 34px;
+    color: #aaa7b1;
+}
+
+.news {
+    width: 89px;
+    height: 251.5px;
+}
+.news-header {
+    font-family: "Inter", sans-serif;
+    font-size: 16.76px;
+    font-weight: 600;
+    line-height: 26.63px;
+    text-align: left;
+    color: #ffffff;
+    width: 49px;
+    height: 27px;
+    display: inline-block;
+}
+
+.news-list-item {
+    position: absolute;
+    width: 89px;
+    height: 206px;
+    top: 45.5px;
+    opacity: 75%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.news-list-item li {
+    text-align: left;
+    font-family: "Inter", sans-serif;
+    font-size: 16.76px;
+    font-weight: 400;
+    line-height: 32.18px;
+    color: #b5b2b2;
+}
+
+.contact {
+    width: 76px;
+    height: 116px;
+}
+.contact-header {
+    font-family: "Inter", sans-serif;
+    font-size: 16.76px;
+    font-weight: 600;
+    line-height: 26.63px;
+    text-align: left;
+    color: #ffffff;
+    width: 69px;
+    height: 27px;
+    display: inline-block;
+}
+
+.contact-list-item {
+    position: absolute;
+    width: 76px;
+    height: 68px;
+    top: 45.5px;
+    opacity: 75%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.contact-list-item li {
+    text-align: left;
+    font-family: "Poppins", sans-serif; /* Ensure the correct font is used */
+    font-size: 14px;
+    font-weight: 400; /* Set the font weight */
+    line-height: 34px;
+    color: #aaa7b1;
+}
+
+.privacy-list {
+    position: absolute;
+    list-style-type: none;
+    color: #f4f4f4;
+    display: flex;
+    flex-direction: row;
+    gap: 47px;
+    margin: 0;
+    padding: 0;
+    height: 27px;
+    width: 386px;
+    left: 1062px;
+    top: 525px;
+}
+
+.privacy-list li {
+    font-family: "Inter", sans-serif;
+    font-size: 17.76px;
+    font-weight: 400;
+    line-height: 26.63px;
+    text-align: right;
+    color: #b5b2b2;
+}
