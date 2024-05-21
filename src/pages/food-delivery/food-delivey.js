@@ -3,6 +3,9 @@ import HeroSection from "../../components/hero-section/hero-section";
 import Dishes from "../../components/dishes/dishes";
 import Subscribe from "../../components/subscribe/subscribe";
 import Footer from "../../components/footer/footer";
+import MainSection from "../../components/main-section/main-section";
+
+import "./food-delivery.css";
 
 function FoodDelivery() {
     return (
@@ -10,6 +13,7 @@ function FoodDelivery() {
             <Header />
             <HeroSection />
             <Dishes />
+            <MainSection />
             <Subscribe />
             <Footer />
         </div>

@@ -1,0 +1,93 @@
+/* .food-card {
+    width: 168px;
+    height: 232px;
+    border-radius: 28px;
+    background-color: #fafafa;
+    position: relative;
+    display: flex;
+
+    align-items: center;
+    flex-direction: column;
+}
+
+.ellipse {
+    position: absolute;
+    width: 108px;
+    height: 108px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    top: 32px;
+    left: 30px;
+    box-shadow: 0px 18px 44px -12px #87878717;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.food-img {
+    width: 54px;
+    height: 54px;
+    font-family: "Inter", sans-serif;
+    font-size: 53.16px;
+    font-weight: 500;
+    line-height: 53.16px;
+    letter-spacing: -0.01em;
+    text-align: center;
+}
+
+.food-name {
+    position: absolute;
+    width: 61px;
+    height: 24px;
+    top: 172px;
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    text-align: center;
+    margin: 0;
+} */
+.food-card {
+    width: 168px;
+    height: 232px;
+    border-radius: 28px;
+    background-color: #fafafa;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.ellipse {
+    width: 108px;
+    height: 108px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    box-shadow: 0px 18px 44px -12px rgba(135, 135, 135, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 32px; /* Adjust as needed */
+}
+
+.food-img {
+    font-size: 53.16px;
+    line-height: 1; /* Ensures the emoji is centered */
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.food-name {
+    position: absolute;
+    top: 172px;
+    margin-bottom: 16px; /* Adjusts the spacing at the bottom */
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    text-align: center;
+    margin: 0;
+}

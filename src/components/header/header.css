@@ -1,13 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&family=Inter:wght@500;600&display=swap");
 
 .header-container {
+    position: absolute;
     display: flex;
+    text-align: center;
     justify-content: space-between;
     align-items: center;
     width: 1178px; /* Hug width */
     height: 56px; /* Hug height */
-    margin-top: 62px;
-    margin-left: 211px;
+    top: 62px;
+
     gap: 226px; /* Gap */
     /* background-color: rgb(201, 205, 205); */
 }

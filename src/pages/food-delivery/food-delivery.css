@@ -1,5 +1,9 @@
 .food-delivery-container {
     display: flex;
     flex-direction: column;
-    /* gap: 100px; */
+    justify-content: center;
+    align-items: center;
+    width: 1600px;
+    height: 4138px;
+    background-color: #ffffff;
 }

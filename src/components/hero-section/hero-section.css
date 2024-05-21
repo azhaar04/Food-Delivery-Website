@@ -3,11 +3,12 @@
 .hero-section-containter {
     width: 1264px;
     height: 478px;
-    margin-top: 103px;
-    margin-left: 168px;
+    top: 221px;
+    text-align: center;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: absolute;
 }
 
 .hero-left {

@@ -3,7 +3,9 @@
 .footer-container {
     width: 1611px;
     height: 728px;
-    position: relative;
+    position: absolute;
+    text-align: center;
+    top: 3410px;
     /* top: 3410px;
     left: -11px; */
     gap: 0;

@@ -1,12 +1,11 @@
 .dishes-container {
     width: 622px; /* Hug width */
     height: 163px; /* Hug height */
-    margin-top: 128px;
-    left: 489px;
+    position: absolute;
     gap: 17px;
     display: flex;
     flex-direction: column;
-    position: relative;
+    top: 899px;
     align-items: center;
     justify-content: center;
 }

@@ -2,11 +2,13 @@
     width: 1430px;
     height: 96px;
     padding: 103px 91px;
+    text-align: center;
+    top: 3108px;
     gap: 248px;
     background-color: #ffefec;
     margin: 0;
     display: flex;
-    position: relative;
+    position: absolute;
 }
 .subscribe-text {
     display: flex;
