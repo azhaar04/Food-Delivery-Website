@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import downArrow from "../../assets/down-arrow.png";
 import "./header.css";
 
 function Header() {
@@ -19,7 +20,10 @@ function Header() {
                     <li className="header-menu-item">Restaurants</li>
                     <li className="header-menu-item">Recipes</li>
                     <li className="header-menu-item">About</li>
-                    <li className="header-menu-item">Page</li>
+                    <li className="header-menu-item down-arrow-list">
+                        Page
+                        <img className="down-arrow" src={downArrow} alt="" />
+                    </li>
                 </ul>
             </div>
 
