@@ -1,6 +1,6 @@
 .dishes-container {
-    width: 622px; /* Hug width */
-    height: 163px; /* Hug height */
+    width: 622px;
+    height: 163px;
     position: absolute;
     gap: 17px;
     display: flex;
@@ -19,12 +19,12 @@
     line-height: 58px;
     letter-spacing: -1%;
     text-align: center;
-    margin: 0; /* Remove default margin */
+    margin: 0;
     /* position: absolute; */
 }
 
 .dishes-bold-text .number {
-    font-weight: 600; /* Ensure the number inside is bold */
+    font-weight: 600;
 }
 .dishes-normal-text {
     width: 514px;
@@ -34,11 +34,22 @@
     line-height: 30px;
     letter-spacing: -1%;
     color: #191720;
-    margin: 0; /* Remove default margin */
-    white-space: nowrap; /* Ensure text remains on one line */
+    margin: 0;
+    white-space: nowrap;
 }
 
 .dishes-bold-text .number {
-    color: #ff5331; /* Set the color for the number */
-    font-weight: bold; /* Ensure the number inside is bold */
+    color: #ff5331;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 1400px) {
+    .dishes-container {
+        top: 799px;
+    }
+}
+@media only screen and (max-width: 1400px) {
+    .dishes-container {
+        top: 699px;
+    }
 }

@@ -5,6 +5,7 @@ import invertedComma from "../../assets/double-inverted-comma.png";
 import closingInvertedComma from "../../assets/Vector (4).png";
 import arrowLeft from "../../assets/arrow-left.png";
 import arrowRight from "../../assets/arrow-right.png";
+import bike from "../../assets/bike.JPG";
 
 import "./main-section.css";
 
@@ -27,6 +28,7 @@ function MainSection() {
                             , and more from our restaurant partners.
                         </p>
                     </div>
+                    <img className="bike-image" src={bike} alt="bike" />
                 </div>
                 <div className="food-item-text">
                     <img

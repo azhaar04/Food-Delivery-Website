@@ -30,18 +30,19 @@ function HeroSection() {
                                 <span>Order Now</span>
                             </button>
                         </div>
+
                         <div className="download">
                             <div className="apple">
                                 <img
-                                    className="apple-logo"
+                                    className="logo"
                                     src={appleLogo}
                                     alt="Apple Logo"
                                 />
                                 <div className="download-text">
-                                    <span className="download-apple">
+                                    <span className="download-text-normal">
                                         Download on the
                                     </span>
-                                    <span className="bold-app-store">
+                                    <span className="download-text-bold">
                                         App Store
                                     </span>
                                 </div>
@@ -49,15 +50,15 @@ function HeroSection() {
 
                             <div className="play-store">
                                 <img
-                                    className="play-store-logo"
+                                    className="logo"
                                     src={playStoreLogo}
                                     alt="Apple Logo"
                                 />
                                 <div className="download-text">
-                                    <span className="download-play-store">
+                                    <span className="download-text-normal">
                                         Get it on
                                     </span>
-                                    <span className="bold-play-store">
+                                    <span className="download-text-bold">
                                         Google Play
                                     </span>
                                 </div>

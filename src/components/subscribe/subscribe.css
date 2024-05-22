@@ -13,8 +13,8 @@
 .subscribe-text {
     display: flex;
     flex-direction: column;
-    width: 675px; /* Hug (675px) */
-    height: 96px; /* Hug (96px) */
+    width: 675px;
+    height: 96px;
 }
 
 .subscribe-bold-text {
@@ -56,7 +56,6 @@
     background-color: #ffffff;
     position: absolute;
     border: none;
-    /* padding-left: 24px; To align text within the input */
 }
 .subscribe-input::placeholder {
     font-family: "Inter", sans-serif;
@@ -64,7 +63,7 @@
     font-size: 14px;
     line-height: 16.94px;
     letter-spacing: 0.5%;
-    color: #afafaf; /* Placeholder text color */
+    color: #afafaf;
     position: absolute;
     top: 23px;
     left: 24px;
@@ -80,9 +79,6 @@
     background-color: #ff5331;
     border: none;
     cursor: pointer;
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
 }
 
 .subscribe-button span {

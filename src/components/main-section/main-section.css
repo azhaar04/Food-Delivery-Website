@@ -108,7 +108,6 @@
     display: flex;
     justify-content: center;
     text-align: center;
-    /* align-items: center; */
 }
 .how-to-order {
     width: 333px;
@@ -138,8 +137,6 @@
 .feedback-container {
     width: 787px;
     height: 524px;
-
-    /* border-radius: 44px; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -148,10 +145,6 @@
 .feedback-header {
     width: 724px;
     height: 124px;
-    /* top: 1307px;
-    left: 293.5px; */
-    /* gap: 0px;
-    opacity: 0px; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -164,10 +157,6 @@
     height: 54px;
     position: absolute;
     top: 1307px;
-    /* top: 1307px;
-left: 293.5px; */
-    /* gap: 0px;
-opacity: 0px; */
     font-family: "Inter", sans-serif;
     font-size: 44px;
     font-weight: 700;
@@ -181,10 +170,6 @@ opacity: 0px; */
     height: 52px;
     position: absolute;
     top: 1379px;
-    /* top: 1379px;
-left: 389.5px;
-gap: 0px;
-opacity: 0px; */
     font-family: "Inter", sans-serif;
     font-size: 16px;
     font-weight: 400;
@@ -199,12 +184,7 @@ opacity: 0px; */
     height: 55px;
     position: absolute;
     top: 1480px;
-    /* top: 1541px;
-    left: 685.5px; */
-    /* gap: 0px;
-    opacity: 0px; */
     color: #ff5331;
-    /* margin-top: 20px; */
 }
 
 .feedback-lorem {
@@ -212,10 +192,6 @@ opacity: 0px; */
     height: 102px;
     position: absolute;
     top: 1583px;
-    /* top: 1583px;
-    left: 261.5px;
-    gap: 0px;
-    opacity: 0px; */
     font-family: "Inter", sans-serif;
     font-size: 24px;
     font-style: italic;
@@ -229,10 +205,6 @@ opacity: 0px; */
 .ceo {
     width: 157px;
     height: 43px;
-    /* top: 1727px;
-    position: absolute; */
-    /* top: 1727px;
-left: 576.5px; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -244,10 +216,6 @@ left: 576.5px; */
     height: 22px;
     position: absolute;
     top: 1727px;
-    /* top: 1727px;
-left: 576.5px;
-gap: 0px;
-opacity: 0px; */
     font-family: "Inter", sans-serif;
     font-size: 18px;
     font-weight: 600;
@@ -263,10 +231,6 @@ opacity: 0px; */
     height: 17px;
     position: absolute;
     top: 1753px;
-    /* top: 1753px;
-left: 576.5px;
-gap: 0px;
-opacity: 0px; */
     font-family: Inter;
     font-size: 14px;
     font-weight: 400;
@@ -282,9 +246,7 @@ opacity: 0px; */
     height: 36px;
     position: absolute;
     top: 1795px;
-
     gap: 20px;
-
     border-radius: 44px;
     display: flex;
     flex-direction: row;
@@ -292,24 +254,12 @@ opacity: 0px; */
 .arrow-image {
     width: 8px;
     height: 16px;
-    /* top: 1805px;
-left: 628.5px;
-gap: 0px; */
-    /* border: 2px ; */
-    /* opacity: 0px;
-angle: -180 deg; */
     text-align: center;
-    /* border: 2px solid #212832; */
 }
 .arrow-left {
     width: 36px;
     height: 36px;
-    /* top: 1795px;
-    left: 643.5px;
-    gap: 0px; */
     border-radius: 44px;
-    /* opacity: 0px;
-    angle: -180 deg; */
     background-color: #e2e2e2;
     display: flex;
     justify-content: center;
@@ -318,14 +268,19 @@ angle: -180 deg; */
 .arrow-right {
     width: 36px;
     height: 36px;
-    /* top: 1795px;
-    left: 643.5px;
-    gap: 0px; */
     border-radius: 44px;
-    /* opacity: 0px;
-    angle: -180 deg; */
     background-color: #ff5331;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.bike-image {
+    position: absolute;
+    width: 192.13px;
+    height: 116.77px;
+    top: 113.9px;
+    left: 348px;
+    /* gap: 0px;
+opacity: 0px; */
 }

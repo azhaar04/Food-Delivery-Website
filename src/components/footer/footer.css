@@ -6,22 +6,20 @@
     position: absolute;
     text-align: center;
     top: 3410px;
-    /* top: 3410px;
-    left: -11px; */
-    gap: 0;
     border: 0.05px solid #ffffff;
     background: #000000;
+    display: flex;
 }
 
 .footer-initial {
     position: absolute;
     width: 230px;
     height: 505.48px;
-    /* top: 3521px;
-    left: 149.81px; */
-    top: 100px;
+    /* top: 3521px; */
     left: 149.81px;
-    gap: 0;
+    /* top: 100px; */
+    /* left: 149.81px; */
+
     /* opacity: 0; */
     display: flex;
     flex-direction: column;
@@ -30,6 +28,7 @@
 
 .footer-pizza {
     position: absolute;
+    top: 111px;
     width: 42px;
     height: 42px;
     font-family: "Playfair Display", serif;
@@ -41,11 +40,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    /* opacity: 0; If you want it initially hidden */
+    transform: rotate(-360deg) scaleX(-1);
 }
 
 .footer-copyright {
     position: absolute;
+    top: 591.48px;
     width: 230px;
     height: 25px;
     font-family: "Inter", sans-serif;
@@ -54,9 +54,6 @@
     line-height: 24.41px;
     text-align: left;
     color: #b5b2b2;
-    top: 400px;
-    /* Adjusting placement inside the flex container */
-    /* opacity: 0; If you want it initially hidden */
 }
 
 .footer-download {
@@ -68,7 +65,7 @@
 }
 .footer-apple,
 .footer-play-store {
-    width: 182.44px;
+    width: 186.85px;
     height: 68px;
 
     border-radius: 10.26px;
@@ -89,10 +86,13 @@
     height: 37.11px;
     display: flex;
     flex-direction: column;
+    justify-content: left;
+
     color: #090909;
 }
 
 .footer-download-text-normal {
+    text-align: left;
     width: 85.77px;
     height: 7.93px;
     color: #090909;
@@ -103,13 +103,14 @@
     display: inline-block;
 }
 .footer-download-text-bold {
+    text-align: left;
     width: 113.64px;
     height: 23.89px;
 
     color: #090909;
     font-weight: bold;
     font-size: 20px;
-    line-height: 28px;
+    line-height: 35px;
     margin: 0;
     display: inline-block;
 }
@@ -118,14 +119,11 @@
     position: absolute;
     width: 824px;
     height: 294.5px;
-    top: 100px;
+    top: 128px;
     left: 683px;
-
-    /* background-color: #232323; */
 }
 .footer-list-header {
     display: flex;
-    /* flex-direction: row; */
     gap: 144px;
     list-style-type: none;
     padding: 0;
@@ -197,9 +195,9 @@
 
 .get-to-know-list-item li {
     text-align: left;
-    font-family: "Poppins", sans-serif; /* Ensure the correct font is used */
+    font-family: "Poppins", sans-serif;
     font-size: 14px;
-    font-weight: 400; /* Set the font weight */
+    font-weight: 400;
     line-height: 34px;
     color: #aaa7b1;
 }
@@ -269,9 +267,9 @@
 
 .contact-list-item li {
     text-align: left;
-    font-family: "Poppins", sans-serif; /* Ensure the correct font is used */
+    font-family: "Poppins", sans-serif;
     font-size: 14px;
-    font-weight: 400; /* Set the font weight */
+    font-weight: 400;
     line-height: 34px;
     color: #aaa7b1;
 }
@@ -288,7 +286,7 @@
     height: 27px;
     width: 386px;
     left: 1062px;
-    top: 525px;
+    top: 591.48px;
 }
 
 .privacy-list li {
